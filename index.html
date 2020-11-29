@@ -29,7 +29,12 @@
               Приедем бесплатно на замер и распишем смету за 3 часа специально
               под вашу квартиру или дом
             </p>
-            <a href="#" class="btn btn-primary btn-lg">Рассчитать стоимость</a>
+            <a
+              class="btn btn-danger btn-lg"
+              href="#popup:marquiz_5fc2f3ee6d98ff00448d381b"
+              data-text-color="#ffffff"
+              >Рассчитать стоимость</a
+            >
           </div>
           <!-- /.col-6 -->
           <div class="col-6">
@@ -42,5 +47,22 @@
       <!-- /.container -->
     </section>
     <!-- /.hero -->
+    <!-- Marquiz script start -->
+    <script
+      src="//script.marquiz.ru/v1.js"
+      type="application/javascript"
+    ></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        Marquiz.init({
+          host: '//quiz.marquiz.ru',
+          id: '5fc2f3ee6d98ff00448d381b',
+          autoOpen: false,
+          autoOpenFreq: 'once',
+          openOnExit: false
+        });
+      });
+    </script>
+    <!-- Marquiz script end -->
   </body>
 </html>
